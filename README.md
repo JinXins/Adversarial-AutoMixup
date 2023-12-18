@@ -1,6 +1,8 @@
 # Adversarial-AutoMixup
+## It's being updated, please wait for a while o*^*o
+
 ## Installation
-In fact, you can add our python file in OpenMixup. There, you can see how to use it and the environment required  
+In fact, you can add our python file in **OpenMixup**. There, you can see how to use it and the environment required  
 You also can download or find other mixups methods in **OpenMixup("https://github.com/Westlake-AI/openmixup")**  
 Thanks contributors: **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998), Zichen Liu[(@pon7)](https://github.com/pone7)) and Zedong Wang[(@Jacky1128)](https://github.com/Jacky1128)**.
 
