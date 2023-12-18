@@ -83,7 +83,7 @@ DeiT-S denotes [DeiT-Samll](https://arxiv.org/abs/2012.12877) Transformer, Swin-
 | SAMix            | 2.0   | ArXiv      | 70.83    | 74.95    | 78.06    | 80.05     | 80.98      |
 | AdAutoMix        | 1.0   | ICLR2024   | 70.86    | 74.82    | 78.04    | 79.90     | 81.10      |
 
-## Find-Grained
+## Find-Grained Epochs=200
 | Name             | alpha | Confrence  | CUB R18 | CUB R50 | CUB RX50 | FGVC R18 | FGVC RX50 | Cars R18 | Cars RX50 |
 |------------------|-------|------------|---------|---------|----------|--------------------|---------------------|--------------------|---------------------|
 | Vanilla          | -     |            | 77.68   | 82.38   | 83.01    | 80.23              | 85.1                | 86.32              | 90.15               |
