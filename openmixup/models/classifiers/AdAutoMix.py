@@ -292,8 +292,8 @@ class AdAutoMix(BaseModel):
 
         # adversial training
         if self.iter % 2 == 0:
-            # loss_mix_k['loss'] = (-1.0) * self.beta_radio * loss_mix_k['loss'] \
-            #                      + (1-self.beta_radio) * cos_simi_weight
+            loss_mix_k['loss'] = (-1.0) * self.beta_radio * loss_mix_k['loss'] \
+                                 + (1-self.beta_radio) * cos_simi_weight
             self.iter = 0
         # mixblock loss
         if loss_mix_k['loss'] is not None and self.weight_mix_k > 0:
@@ -664,25 +664,4 @@ class AdAutoMix(BaseModel):
         feature = self.backbone_k(img)[0]
         results = self.mixup(img, gt_label, lam, indices, feature)
         return {'mix_bb': results["img_mix_bb"], 'mix_mb': results["img_mix_mb"]}
-
-
-    # def save_mixed_sample(self):
-    #     size = (224, 224)
-    #     i1, i2 = ['/home/jinxin/桌面/openmixup/image_sample/imagenet/panda.jpeg',
-    #               '/home/jinxin/桌面/openmixup/image_sample/imagenet/shark.jpeg']
-    #     i1 = PIL.Image.open(i1).resize(size)
-    #     i1 = i1.convert('RGB')
-    #     i1 = torchvision.transforms.functional.to_tensor(i1).view(1, 3, 224, 224)
-    #     i2 = PIL.Image.open(i2).resize(size)
-    #     i2 = i2.convert('RGB')
-    #     i2 = torchvision.transforms.functional.to_tensor(i2).view(1, 3, 224, 224)
-    #
-    #     imgs = torch.cat([i1, i2], dim=0).cuda()
-    #     lables = torch.randint(high=2, size=[2]).cuda()
-    #     index_bb = torch.randperm(2).cuda()
-    #     index_mb = torch.randperm(2).cuda()
-    #     indices = [index_mb, index_bb]
-    #     feature = self.backbone_k(imgs)[0]
-    #     results = self.mixup(imgs, [0.5, 0.5], indices, feature)
-    #
-    #     return results["img_mix_mb"]
+        
