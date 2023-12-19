@@ -25,7 +25,7 @@ git clone https://github.com/JinXins/Adversarial-AutoMixup.git
 ```
 ___
 ## 😉 Citation
-If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing openmixup if you use this project **! ! !** 🤗:  
+If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing OpenMixup if you use this project **! ! !** 🤗:  
 ```markdown
 We'll update the paper with BibTeX citations when ICLR2024 is over!
 
