@@ -1,7 +1,7 @@
 # Adversarial-AutoMixup
 ## ⏰ We will update the code and checkpoint weights file accordingly, so please wait for a while! o*^*o
 ### 📬 You can contact us by email： 158398730@qq.com or qinhuafengfeng@163.com
-
+___
 ## 🛠 Installation
 In fact, you can add our python file in **OpenMixup**.  
 There, you can see how to use it and the environment required. What you need to do is add or replace our files by folder inside OpenMixup, and then add the function names of the files in the `__init__.py` file.   
@@ -20,11 +20,11 @@ python setup.py develop
 ```
 **Here are the commands to git clone AdAutoMixup**
 ```markdown
-git clone https://github.com/JinXins/Adversarial-AutoMixup
+git clone https://github.com/JinXins/Adversarial-AutoMixup.git
 ```
-
+___
 ## 😉 Citation
-If you like this paper of ours, please remember citing it **(^-^)**, and please don`t forget citing openmixup if you use this project **! ! !**:  
+If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing openmixup if you use this project **! ! !** 🤗:  
 ```markdown
 We'll update the paper with BibTeX citations when ICLR2024 is over!
 
