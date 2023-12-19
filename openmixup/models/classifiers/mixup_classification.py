@@ -54,7 +54,6 @@ class MixUpClassification(BaseModel):
                  mix_prob=None,
                  mix_repeat=False,
                  momentum_k=-1,
-                 is_IN=False,
                  pretrained=None,
                  pretrained_k=None,
                  save_name='MixedSamples',
@@ -329,8 +328,6 @@ class MixUpClassification(BaseModel):
                 assert cur_mode == "vanilla" and return_mask == False
             if return_mask:
                 img, mask = img  # (img, mask): get mixup mask
-            if self.is_IN:
-                out = self.backbone(samples.type(torch.float32))
             x = self.backbone(img.type(torch.float32))
         else:
             # manifoldmix
@@ -360,14 +357,8 @@ class MixUpClassification(BaseModel):
             plot_lam = gt_label[2] if len(gt_label) == 3 else (float(torch.mean(gt_label[-2])), float(torch.mean(gt_label[-1])) )
             self.plot_mix(img_mixed=img, mix_mode=cur_mode, lam=plot_lam)
         # mixup loss
-        if self.is_IN:
-            outs = self.head(out)
-            mix_outs = self.head(x)
-            IN_out = (outs, mix_outs, rand_index)
-            losses = self.head.INloss(IN_out, gt_label)
-        else:
-            outs = self.head(x)
-            losses = self.head.loss(outs, gt_label)
+        outs = self.head(x)
+        losses = self.head.loss(outs, gt_label)
         losses['loss'] /= self.mix_repeat
         if self.debug_mode:
             if torch.any(torch.isnan(losses['loss'])) or torch.any(torch.isinf(losses['loss'])):
@@ -407,16 +398,6 @@ class MixUpClassification(BaseModel):
             # remove 'vanilla' if chosen
             if self.mix_mode[cur_idx] == "vanilla":
                 remove_idx = cur_idx
-
-        # self.i += 1
-        # if self.i % 100 == 0:
-        #     test_img = self.mix_samples()
-        #     name = 'puzzlemixtest.jpg'
-        #     save_image(test_img[:1, :, :, :], name)
-
-        # test_img = self.mix_samples()
-        # name = 'cutmix_test.jpg'
-        # save_image(test_img[:1, :, :, :], name)
 
         return losses
 
@@ -458,24 +439,3 @@ class MixUpClassification(BaseModel):
         assert self.save_name.find(".png") != -1
         self.ploter.plot(
             img, nrow=4, title_name=title_name, save_name=self.save_name)
-
-    def mix_samples(self):
-        size=(224,224)
-        i1, i2 = ['/home/jinxin/桌面/openmixup/image_sample/CUB200/Black_Billed_Cuckoo_0071_26288.jpg',
-                  '/home/jinxin/桌面/openmixup/image_sample/CUB200/Yellow_Bellied_Flycatcher_0028_42639.jpg']
-        i1 = PIL.Image.open(i1).resize(size)
-        i1 = i1.convert('RGB')
-        i1 = torchvision.transforms.functional.to_tensor(i1).view(1, 3, 224, 224)
-        i2 = PIL.Image.open(i2).resize(size)
-        i2 = i2.convert('RGB')
-        i2 = torchvision.transforms.functional.to_tensor(i2).view(1, 3, 224, 224)
-
-        imgs = torch.cat([i1, i2], dim=0).cuda()
-        lables = torch.randint(high=2, size=[2]).cuda()
-        # features = self._features(imgs, gt_label=lables, cur_mode='puzzlemix', **self.mix_args['puzzlemix'])
-        # mix_args = dict(alpha=1, dist_mode=False, return_mask=None,
-        #                 features=features, **self.mix_args['puzzlemix'])
-        # img, gt_label = self.dynamic_mode['puzzlemix'](imgs, lables, **mix_args)
-        img, gt_label = cutmix(imgs, lables, lam=0.5)
-
-        return img
