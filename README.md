@@ -28,6 +28,13 @@ ___
 **If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing OpenMixup if you use this project ! ! !** 🤗:  
 ```markdown
 We'll update the paper with BibTeX citations when ICLR2024 is over!
+@article{Qin2023AdversarialA,
+  title={Adversarial AutoMixup},
+  author={Huafeng Qin and Xin Jin and Yun Jiang and Mounim A. El-Yacoubi and Xinbo Gao},
+  journal = {ArXiv},
+  year={2023},
+  volume = {abs/2312.11954}
+}
 
 @article{li2022openmixup,
   title = {OpenMixup: A Comprehensive Mixup Benchmark for Visual Classification},
