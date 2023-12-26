@@ -15,7 +15,7 @@ from .base_model import BaseModel
 from .. import builder
 from ..registry import MODELS
 from ..augments import (cutmix, fmix, gridmix, mixup, resizemix, saliencymix, smoothmix,
-                        alignmix, attentivemix, puzzlemix, transmix, snapmix, recursivemix)
+                        alignmix, attentivemix, puzzlemix, transmix, snapmix)
 from ..utils import PlotTensor
 
 
@@ -68,7 +68,6 @@ class MixUpClassification(BaseModel):
         self.mix_block = None
         self.backbone_k = None
         self.momentum_k = momentum_k
-        self.is_IN = bool(is_IN)
         if backbone_k is not None:
             self.backbone_k = builder.build_backbone(backbone_k)
             for param in self.backbone_k.parameters():  # stop grad k
@@ -90,13 +89,12 @@ class MixUpClassification(BaseModel):
         self.static_mode = {
             "mixup": mixup, "cutmix": cutmix, "fmix": fmix, "gridmix": gridmix,
             "manifoldmix": self._manifoldmix, "saliencymix": saliencymix,
-            "smoothmix": smoothmix, "resizemix": resizemix, "recursivemix":recursivemix,
+            "smoothmix": smoothmix, "resizemix": resizemix,
         }
         self.mix_args = dict(  # default settings
             alignmix=dict(eps=0.1, max_iter=100),
             attentivemix=dict(grid_size=32, top_k=6, beta=8),
             automix=dict(mask_adjust=0, lam_margin=0),
-            adaptivemix=dict(mask_adjust=0, lam_margin=0),
             cutmix=dict(),
             fmix=dict(decay_power=3, size=(32,32), max_soft=0., reformulate=False),
             gridmix=dict(n_holes=(2, 6), hole_aspect_ratio=1.,
@@ -107,7 +105,6 @@ class MixUpClassification(BaseModel):
                 gamma=0.5, eta=0.2, neigh_size=4, n_labels=3, t_eps=0.8, t_size=-1),
             snapmix=dict(),
             resizemix=dict(scope=(0.1, 0.8), use_alpha=False),
-            recursivemix=dict(old_img=None, old_label=None, num_classes=100, smoothing=0.0),
             saliencymix=dict(),
             samix=dict(mask_adjust=0, lam_margin=0.08),
             smoothmix=dict(),
@@ -281,9 +278,6 @@ class MixUpClassification(BaseModel):
             random_state = np.random.RandomState(random.randint(0, 2**32 - 1))
             cur_idx = random_state.choice(candidate_list, p=self.mix_prob)
         cur_mode, cur_alpha = self.mix_mode[cur_idx], self.alpha[cur_idx]
-
-        if self.is_IN:
-            samples = img
 
         # selecting label mixup methods
         label_mix_mode = "default"
