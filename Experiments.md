@@ -15,7 +15,7 @@ R18 denotes [ResNet-18](https://openaccess.thecvf.com/content_cvpr_2016/html/He_
 | [Attentive-CutMix](https://arxiv.org/abs/2003.13048) | 2.0   | ICASSP2020 | 79.62   | 80.14   | 78.91   | 81.69    | 81.53    | 80.54    |
 | [FMix](https://arxiv.org/abs/2002.12047)             | 0.2   | ArXiv      | 78.91   | 79.91   | 79.69   | 79.87    | 78.99    | 79.02    |
 | [GridMix](https://www.sciencedirect.com/science/article/abs/pii/S0031320320303976)          | 0.2   | PR2021     | 78.23   | 78.60   | 78.72   | 81.11    | 79.80    | 78.90    |
-| [ResizeMix](https://arxiv.org/abs/2012.11101)        | 1.0   | ArXiv      | 79.56   | 79.19   | 80.01   | 79.23    | 79.78    | 80.35    |
+| [ResizeMix](https://arxiv.org/abs/2012.11101)        | 1.0   | CVMJ2023   | 79.56   | 79.19   | 80.01   | 79.23    | 79.78    | 80.35    |
 | [PuzzleMix](https://arxiv.org/abs/2009.06962)        | 1.0   | ICML2020   | 79.96   | 80.82   | 81.13   | 81.69    | 82.84    | 82.85    |
 | [Co-Mixup](https://arxiv.org/abs/2102.03065)         | 2.0   | ICLR2021   | 80.01   | 80.87   | 81.17   | 81.73    | 82.88    | 82.91    |
 | [AutoMix](https://arxiv.org/abs/2103.13027)          | 2.0   | ECCV2022   | 80.12   | 81.78   | 82.04   | 82.84    | 83.32    | 83.64    |
@@ -36,7 +36,7 @@ DeiT-S denotes [DeiT-Samll](https://arxiv.org/abs/2012.12877) Transformer, Swin-
 | [Attentive-CutMix](https://arxiv.org/abs/2003.13048)  | 2.0       | ICASSP2020 | 75.89          | 80.33          | 81.13         | 83.69         | 82.59             | 83.04             |
 | [FMix](https://arxiv.org/abs/2002.12047)              | 1.0       | ArXiv      | 70.41          | 74.31          | 80.72         | 82.82         | 81.79             | 82.29             |
 | [GridMix](https://www.sciencedirect.com/science/article/abs/pii/S0031320320303976)           | 1.0       | PR2021     | 68.86          | 74.96          | 78.54         | 80.79         | 79.53             | 79.66             |
-| [ResizeMix](https://arxiv.org/abs/2012.11101)         | 1.0       | ArXiv      | 68.45          | 71.95          | 80.16         | 82.36         | 82.53             | 82.91             |
+| [ResizeMix](https://arxiv.org/abs/2012.11101)         | 1.0       | CVMJ2023   | 68.45          | 71.95          | 80.16         | 82.36         | 82.53             | 82.91             |
 | [PuzzleMix](https://arxiv.org/abs/2009.06962)         | 2.0       | ICML2020   | 73.60          | 81.01          | 80.33         | 84.74         | 82.29             | 84.17             |
 | [Co-Mixup](https://arxiv.org/abs/2102.03065)          | 2.0       | ICLR2021   | -              | -              | -             | -             | -                 | -                 |
 | [AlignMix](https://arxiv.org/abs/2103.15375)          | 1.0       | CVPR2022   | -              | -              | 78.91         | 83.34         | 80.88             | 83.03             |
@@ -58,7 +58,7 @@ ___
 | Attentive-CutMix | 2.0   | ICASSP2020 | 64.85    | 67.42     |
 | FMix             | 0.2   | ArXiv      | 63.47    | 65.08     |
 | GridMix          | 0.2   | PR2021     | 65.14    | 66.53     |
-| ResizeMix        | 1.0   | ArXiv      | 63.17    | 65.87     |
+| ResizeMix        | 1.0   | CVMJ2023   | 63.17    | 65.87     |
 | PuzzleMix        | 1.0   | ICML2020   | 65.81    | 67.83     |
 | Co-Mixup         | 2.0   | ICLR2021   | 65.92    | 68.02     |
 | AutoMix          | 2.0   | ECCV2022   | 67.33    | 70.72     |
@@ -77,7 +77,7 @@ ___
 | Attentive-CutMix | 2.0   | ICASSP2020 | -        | -        | -        | -         | -          |
 | FMix             | 0.2   | ArXiv      | 69.96    | 74.08    | 77.19    | 79.09     | 80.06      |
 | GridMix          | 0.2   | PR2021     | -        | -        | -        | -         | -          |
-| ResizeMix        | 1.0   | ArXiv      | 69.50    | 73.88    | 77.42    | 79.27     | 80.55      |
+| ResizeMix        | 1.0   | CVMJ2023   | 69.50    | 73.88    | 77.42    | 79.27     | 80.55      |
 | PuzzleMix        | 1.0   | ICML2020   | 70.12    | 74.26    | 77.54    | 79.43     | 80.53      |
 | Co-Mixup         | 2.0   | ICLR2021   | -        | -        | -        | -         | -          |
 | AutoMix          | 2.0   | ECCV2022   | 70.50    | 74.52    | 77.91    | 79.87     | 80.89      |
@@ -96,7 +96,7 @@ ___
 | AttentiveCutMix  | 2.0   | ICASSP2020 | 78.34   | 83.76   | 83.69    | 74.95              | 83.17               | 86.91              | 90.62               |
 | FMix             | 0.2   | ArXiv      | 77.28   | 83.34   | 84.06    | 79.36              | 86.23               | 87.55              | 90.90               |
 | GridMix          | 0.2   | PR2021     | 77.15   | 81.98   | 83.19    | 80.08              | 84.82               | 86.77              | 91.50               |
-| ResizeMix        | 1.0   | ArXiv      | 78.5    | 83.41   | 84.77    | 78.1               | 84.08               | 88.17              | 91.36               |
+| ResizeMix        | 1.0   | CVMJ2023   | 78.5    | 83.41   | 84.77    | 78.1               | 84.08               | 88.17              | 91.36               |
 | [SnapMix](https://arxiv.org/abs/2012.04846)          | 1.0   | AAAI2020   | 79.27   | 83.15   | 83.53    | 77.86              | 83.41               | 88.45              | 91.37               |
 | PuzzleMix        | 1.0   | ICML2020   | 78.63   | 83.83   | 84.51    | 80.76              | 86.23               | 87.78              | 91.29               |
 | Co-Mixup         | 2.0   | ICLR2021   | -       | -       | -        | -                  | -                   | -                  | -                   |
