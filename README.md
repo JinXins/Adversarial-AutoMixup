@@ -1,7 +1,9 @@
 # Adversarial AutoMixup
 
-## ⏰ We will update the checkpoint weights files and other logs(ImageNet-1K...) accordingly, so please wait for a while! o*^*o
-### 📬 You can contact us by email： 158398730@qq.com or qinhuafengfeng@163.com
+## ⏰ We will update the checkpoint weights files and other logs(like ImageNet-1K...) accordingly, so please wait for a while! o*^*o
+### 📬 You can contact me by email： 158398730@qq.com or WeChat： xinxinxinxin_j.
+### 👨‍🏫 And you can also contact my tercher by email： qinhuafengfeng@163.com, here's his Google Scholar link [(Huafeng Qin)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). 
+### If you are interested in vein research, contact us.
 ___
 ## 🛠 Installation
 In fact, you can add our python file in **OpenMixup**.  
