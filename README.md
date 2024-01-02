@@ -1,6 +1,6 @@
 # Adversarial AutoMixup
 
-## ⏰ We will update the checkpoint weights files and logs accordingly, so please wait for a while! o*^*o
+## ⏰ We will update the checkpoint weights files and other logs(ImageNet-1K...) accordingly, so please wait for a while! o*^*o
 ### 📬 You can contact us by email： 158398730@qq.com or qinhuafengfeng@163.com
 ___
 ## 🛠 Installation
