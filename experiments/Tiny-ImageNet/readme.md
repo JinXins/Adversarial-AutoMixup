@@ -1,1 +1,0 @@
-# Tiny-ImageNet Results
