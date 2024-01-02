@@ -1,1 +1,0 @@
-# CIFAR100 Results
