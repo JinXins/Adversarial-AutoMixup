@@ -20,7 +20,7 @@ R18 denotes [ResNet-18](https://openaccess.thecvf.com/content_cvpr_2016/html/He_
 | [Co-Mixup](https://arxiv.org/abs/2102.03065)         | 2.0   | ICLR2021   | 80.01   | 80.87   | 81.17   | 81.73    | 82.88    | 82.91    |
 | [AutoMix](https://arxiv.org/abs/2103.13027)          | 2.0   | ECCV2022   | 80.12   | 81.78   | 82.04   | 82.84    | 83.32    | 83.64    |
 | [SAMix](https://arxiv.org/abs/2111.15454)            | 2.0   | ArXiv      | 81.21   | 81.97   | 82.30   | 83.81    | 84.27    | 84.42    |
-| AdAutoMix        | 1.0   | ICLR2024   | 81.55   | 81.97   | 82.32   | 84.40    | 84.05    | 84.22    |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **81.55**   | **81.97**   | **82.32**   | **84.40**    | **84.05**    | **84.22**    |
 
 ### ViTs
 DeiT-S denotes [DeiT-Samll](https://arxiv.org/abs/2012.12877) Transformer, Swin-T denotes [Swin-Tiny](https://arxiv.org/abs/2103.14030) Transformer and ConvNeXt-T denotes [ConvNeXt-Tiny](https://arxiv.org/abs/2201.03545) Transformer.
@@ -44,7 +44,7 @@ DeiT-S denotes [DeiT-Samll](https://arxiv.org/abs/2012.12877) Transformer, Swin-
 | [SAMix](https://arxiv.org/abs/2111.15454)             | 2.0       | ArXiv      | 77.94          | 82.49          | 82.70         | 84.74         | 83.56             | 84.98             |
 | [TransMix](https://arxiv.org/abs/2111.09833)          | "0.8,1.0" | CVPR2022   | 76.17          | 79.33          | 81.33         | 84.45         | -                 | -                 |
 | [SMMix](https://arxiv.org/abs/2212.12977)             | "0.8,1.0" | ICCV2023   | 74.49          | 80.05          | 81.55         | -             | -                 | -                 |
-| AdAutoMix         | 1.0       | ICLR2024   | -              | -              | 84.33         | 85.34         | 83.54             |                   |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)         | 1.0       | ICLR2024   | -              | -              | **84.33**         | **85.34**         | **83.54**             | -                 |
 ___
 ## Tiny-ImageNet Epochs=400
 | Name             | alpha | Conference | ResNet18 | ResNeXt50 |
@@ -63,7 +63,7 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | 65.92    | 68.02     |
 | AutoMix          | 2.0   | ECCV2022   | 67.33    | 70.72     |
 | SAMix            | 2.0   | ArXiv      | 68.89    | 72.18     |
-| AdAutoMix        | 1.0   | ICLR2024   | 69.19    | 72.89     |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **69.19**    | **72.89**     |
 ___
 ## ImageNet-1K Epochs=100
 | Name             | alpha | Conference | ResNet18 | ResNet34 | ResNet50 | ResNet101 | ResNeXt101 |
@@ -82,7 +82,7 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | -        | -        | -        | -         | -          |
 | AutoMix          | 2.0   | ECCV2022   | 70.50    | 74.52    | 77.91    | 79.87     | 80.89      |
 | SAMix            | 2.0   | ArXiv      | 70.83    | 74.95    | 78.06    | 80.05     | 80.98      |
-| AdAutoMix        | 1.0   | ICLR2024   | 70.86    | 74.82    | 78.04    | 79.90     | 81.10      |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **70.86**    | **74.82**    | **78.04**    | **79.90**     | **81.10**      |
 ___
 ## Find-Grained Epochs=200
 | Name             | alpha | Confrence  | CUB R18 | CUB R50 | CUB RX50 | FGVC R18 | FGVC RX50 | Cars R18 | Cars RX50 |
@@ -102,6 +102,6 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | -       | -       | -        | -                  | -                   | -                  | -                   |
 | AutoMix          | 2.0   | ECCV2022   | 79.87   | 83.88   | 86.56    | 81.37              | 86.72               | 88.89              | 91.38               |
 | SAMix            | 2.0   | ArXiv      | 81.11   | 84.10   | 86.33    | 82.15              | 86.80               | 89.14              | 90.46               |
-| AdAutoMix        | 1.0   | ICLR2024   | 80.88   | 84.57   | -        | 81.73              | 87.16               | 89.19              | 91.59               |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **80.88**   | **84.57**   | -        | **81.73**              | **87.16**               | **89.19**              | **91.59**               |
 
 **You can visit this link for more Mixup methods：[Awesome-Mixup](https://github.com/Westlake-AI/Awesome-Mixup)**
