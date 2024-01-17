@@ -1,8 +1,8 @@
 # Adversarial AutoMixup
 
 ## ⏰ Official PyTorch implementation of Adversarial AutoMixup (ICLR`2024 spotlight)
-### 📬 You can contact me by email： 158398730@qq.com or WeChat： xinxinxinxin_j if you like.
-### 👨‍🏫 And you can also contact my advisor[(*Huafeng Qin*)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)  by email: qinhuafengfeng@163.
+### 📬 You can contact me by email: 158398730@qq.com or WeChat: *xinxinxinxin_j* if you like.
+### 👨‍🏫 And you can also contact my advisor[(*Huafeng Qin*)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)  by email: qinhuafengfeng@163.com
 **If you are interested in *palm or finger vein research*, please contact us!**
 ___
 ## 🛠 Installation
