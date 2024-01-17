@@ -18,6 +18,18 @@ Huafeng Qin<sup>1,\*</sup>, Xin Jin<sup>1,\*</sup>, Yun Jiang<sup>1</sup>, Mouni
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" /></a>
 </p>
 
+## Mixed Images of Various Mixup-based Approaches.
+<p align="center">
+<img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" width=75% height=75% 
+class="center">
+</p>
+
+<p align="center">
+<img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" width=75% height=75% 
+class="center">
+</p>
+
+We propose **AdAutoMix**, an adversarial automatic mixup augmentation approach that generates challenging samples to train a robust classifier for image classification, by alternatively optimizing the classifier and the mixup sample generator. AdAutoMix comprises two modules, a mixed example generator, and a target classifier. The mixed sample generator aims to produce hard mixed examples to challenge the target classifier while the target classifier’s aim is to learn robust features from hard mixed examples to improve generalization. To prevent the collapse of the inherent meanings of images, we further introduce an exponential moving average (EMA) teacher and cosine similarity to train AdAutoMix in an end-to-end way. 
 
 
 ## ⏰ Official PyTorch implementation of Adversarial AutoMixup (ICLR`2024 spotlight)
