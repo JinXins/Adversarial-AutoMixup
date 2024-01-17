@@ -2,7 +2,7 @@
 <!-- <h1>Adversarial AutoMixup</h1> -->
 <h2><a href="https://arxiv.org/abs/2312.11954">Adversarial AutoMixup (ICLR 2024 spotlight)</a></h2>
 
-Huafeng Qin<sup>1,\*</sup>, Xin Jin<sup>1,\*</sup>, Yun Jiang<sup>1</sup>, Mounim A. El-Yacoubi<sup>2</sup>, Xinbo Gao<sup>†,3</sup>
+[Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)<sup>1,\*</sup>, [Xin Jin](https://scholar.google.com/citations?user=v3OwxWIAAAAJ&hl=zh-CN)<sup>1,\*</sup>, Yun Jiang<sup>1</sup>, [Mounim A. El-Yacoubi](https://scholar.google.com/citations?user=ObFYefYAAAAJ&hl=zh-CN)<sup>2</sup>, [Xinbo Gao](https://scholar.google.com/citations?user=VZVTOOIAAAAJ&hl=zh-CN&oi=sra)<sup>†,3</sup>
 
 <sup>1</sup>[Chongqing Technology and Business University](https://www.ctbu.edu.cn/)
 
@@ -31,18 +31,7 @@ We propose **AdAutoMix**, an adversarial automatic mixup augmentation approach t
 class="center">
 </p>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="# 🛠 Installation">Installation</a></li>
-    <li><a href="# Experiments">Experiments</a></li>
-    <li><a href="# 😉 Citation">Citation</a></li>
-    <li><a href="# 💬 Other">Other</a></li>
-  </ol>
-</details>
-
-### 📬 You can contact me by email: 158398730@qq.com or WeChat: *xinxinxinxin_j* if you like.
-### 👨‍🏫 And you can also contact my advisor[(*Huafeng Qin*)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)  by email: qinhuafengfeng@163.com
+### 📬 You can contact me by email: 158398730@qq.com or WeChat: *xinxinxinxin_j*.
 **If you are interested in *palm or finger vein research*, please contact us!**
 ___
 ## 🛠 Installation
@@ -67,8 +56,8 @@ git clone https://github.com/JinXins/Adversarial-AutoMixup.git
 ```
 ___
 
-## Experiments
-Experiments  
+## 📊 Experiments
+**Please check [Experiments.md](Experiments.md) for detail experiment results.**  
 ___
 
 ## 😉 Citation
