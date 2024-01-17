@@ -63,7 +63,7 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | 65.92    | 68.02     |
 | AutoMix          | 2.0   | ECCV2022   | 67.33    | 70.72     |
 | SAMix            | 2.0   | ArXiv      | 68.89    | 72.18     |
-| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **69.19**    | **72.89**     |
+| AdAutoMix        | 1.0   | ICLR2024   | **69.19**    | **72.89**     |
 ___
 ## ImageNet-1K Epochs=100
 | Name             | alpha | Conference | ResNet18 | ResNet34 | ResNet50 | ResNet101 | ResNeXt101 |
@@ -82,7 +82,7 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | -        | -        | -        | -         | -          |
 | AutoMix          | 2.0   | ECCV2022   | 70.50    | 74.52    | 77.91    | 79.87     | 80.89      |
 | SAMix            | 2.0   | ArXiv      | 70.83    | 74.95    | 78.06    | 80.05     | 80.98      |
-| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **70.86**    | **74.82**    | **78.04**    | **79.90**     | **81.10**      |
+| AdAutoMix        | 1.0   | ICLR2024   | **70.86**    | **74.82**    | **78.04**    | **79.90**     | **81.10**      |
 ___
 ## Find-Grained Epochs=200
 | Name             | alpha | Confrence  | CUB R18 | CUB R50 | CUB RX50 | FGVC R18 | FGVC RX50 | Cars R18 | Cars RX50 |
@@ -102,6 +102,6 @@ ___
 | Co-Mixup         | 2.0   | ICLR2021   | -       | -       | -        | -                  | -                   | -                  | -                   |
 | AutoMix          | 2.0   | ECCV2022   | 79.87   | 83.88   | 86.56    | 81.37              | 86.72               | 88.89              | 91.38               |
 | SAMix            | 2.0   | ArXiv      | 81.11   | 84.10   | 86.33    | 82.15              | 86.80               | 89.14              | 90.46               |
-| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   | **80.88**   | **84.57**   | -        | **81.73**              | **87.16**               | **89.19**              | **91.59**               |
+| AdAutoMix        | 1.0   | ICLR2024   | **80.88**   | **84.57**   | -        | **81.73**              | **87.16**               | **89.19**              | **91.59**               |
 
 **You can visit this link for more Mixup methods：[Awesome-Mixup](https://github.com/Westlake-AI/Awesome-Mixup)**
