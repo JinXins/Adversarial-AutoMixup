@@ -18,12 +18,6 @@ Huafeng Qin<sup>1,\*</sup>, Xin Jin<sup>1,\*</sup>, Yun Jiang<sup>1</sup>, Mouni
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" /></a>
 </p>
 
-## Mixed Images of Various Mixup-based Approaches.
-<p align="center">
-<img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" width=75% height=75% 
-class="center">
-</p>
-
 <p align="center">
 <img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/c8b2f194-41b1-4117-8965-68c9c20d3c83" width=75% height=75% 
 class="center">
@@ -31,8 +25,22 @@ class="center">
 
 We propose **AdAutoMix**, an adversarial automatic mixup augmentation approach that generates challenging samples to train a robust classifier for image classification, by alternatively optimizing the classifier and the mixup sample generator. AdAutoMix comprises two modules, a mixed example generator, and a target classifier. The mixed sample generator aims to produce hard mixed examples to challenge the target classifier while the target classifier’s aim is to learn robust features from hard mixed examples to improve generalization. To prevent the collapse of the inherent meanings of images, we further introduce an exponential moving average (EMA) teacher and cosine similarity to train AdAutoMix in an end-to-end way. 
 
+### Mixed Images of Various Mixup-based Approaches.
+<p align="center">
+<img src="https://github.com/JinXins/Adversarial-AutoMixup/assets/124172716/ab30bb40-cc57-455e-98f1-436d9e16aafe" width=75% height=75% 
+class="center">
+</p>
 
-## ⏰ Official PyTorch implementation of Adversarial AutoMixup (ICLR`2024 spotlight)
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="## 🛠 Installation">Installation</a></li>
+    <li><a href="## Experiments">Experiments</a></li>
+    <li><a href="## 😉 Citation">Citation</a></li>
+    <li><a href="## 💬 Other">Other</a></li>
+  </ol>
+</details>
+
 ### 📬 You can contact me by email: 158398730@qq.com or WeChat: *xinxinxinxin_j* if you like.
 ### 👨‍🏫 And you can also contact my advisor[(*Huafeng Qin*)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)  by email: qinhuafengfeng@163.com
 **If you are interested in *palm or finger vein research*, please contact us!**
@@ -58,6 +66,11 @@ python setup.py develop
 git clone https://github.com/JinXins/Adversarial-AutoMixup.git
 ```
 ___
+
+## Experiments
+Experiments  
+___
+
 ## 😉 Citation
 **If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing OpenMixup if you use this project ! ! !** 🤗:  
 ```markdown
