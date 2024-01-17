@@ -1,9 +1,9 @@
 # Adversarial AutoMixup
 
-## ⏰ We will update the checkpoint weights files and other logs(like ImageNet-1K...) accordingly, so please wait for a while! o*^*o
-### 📬 You can contact me by email： 158398730@qq.com or WeChat： xinxinxinxin_j.
-### 👨‍🏫 And you can also contact my tercher by email： qinhuafengfeng@163.com, here's his Google Scholar link [(Huafeng Qin)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). 
-### If you are interested in vein research, contact us.
+## ⏰ Official PyTorch implementation of Adversarial AutoMixup (ICLR`2024 spotlight)
+### 📬 You can contact me by email： 158398730@qq.com or WeChat： xinxinxinxin_j if you like.
+### 👨‍🏫 And you can also contact my advisor[(*Huafeng Qin*)](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)  by email: qinhuafengfeng@163.
+**If you are interested in *palm or finger vein research*, please contact us!**
 ___
 ## 🛠 Installation
 In fact, you can add our python file in **OpenMixup**.  
@@ -46,5 +46,12 @@ We'll update the paper with BibTeX citations when ICLR2024 is over!
   volume = {abs/2209.04851}
 }
 ```
+
+___
+## 💬 Other
+
+**Chongqing Intelligence Perception and Block Chain Technology Key Lab(CQIPBCT Key Lab)**  
+*If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
+Of course, we're also trying to research how we can use AI to predict and detect diseases, potentially Alzheimer's, Parkinson's, etc., but of course, this is new research for us, so we're still figuring it out.*
 
 
