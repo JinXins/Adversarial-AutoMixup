@@ -1,4 +1,24 @@
-# Adversarial AutoMixup
+<div align="center">
+<!-- <h1>Adversarial AutoMixup</h1> -->
+<h2><a href="https://arxiv.org/abs/2312.11954">Adversarial AutoMixup (ICLR 2024 spotlight)</a></h2>
+
+Huafeng Qin<sup>1,\*</sup>, Xin Jin<sup>1,\*</sup>, Yun Jiang<sup>1</sup>, Mounim A. El-Yacoubi<sup>2</sup>, Xinbo Gao<sup>†,3</sup>
+
+<sup>1</sup>[Chongqing Technology and Business University](https://www.ctbu.edu.cn/)
+
+<sup>2</sup>[Telecom SudParis, Institut Polytechnique de Paris](https://www.ip-paris.fr/telecom-sudparis)
+
+<sup>3</sup>[Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/)
+</div>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2211.03295" alt="arXiv">
+    <img src="https://img.shields.io/badge/arXiv-2211.03295-b31b1b.svg?style=flat" /></a>
+<a href="https://github.com/Westlake-AI/MogaNet/blob/main/LICENSE" alt="license">
+    <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" /></a>
+</p>
+
+
 
 ## ⏰ Official PyTorch implementation of Adversarial AutoMixup (ICLR`2024 spotlight)
 ### 📬 You can contact me by email: 158398730@qq.com or WeChat: *xinxinxinxin_j* if you like.
@@ -50,7 +70,7 @@ We'll update the paper with BibTeX citations when ICLR2024 is over!
 ___
 ## 💬 Other
 
-**Chongqing Intelligence Perception and Block Chain Technology Key Lab(CQIPBCT Key Lab)**  
+**Chongqing Intelligence Perception and Block Chain Technology Key Lab (CQIPBCT Key Lab)**  
 *If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
 Of course, we're also trying to research how we can use AI to predict and detect diseases, potentially Alzheimer's, Parkinson's, etc., but of course, this is new research for us, so we're still figuring it out.*
 
