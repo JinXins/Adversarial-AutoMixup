@@ -34,10 +34,10 @@ class="center">
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="## 🛠 Installation">Installation</a></li>
-    <li><a href="## Experiments">Experiments</a></li>
-    <li><a href="## 😉 Citation">Citation</a></li>
-    <li><a href="## 💬 Other">Other</a></li>
+    <li><a href="# 🛠 Installation">Installation</a></li>
+    <li><a href="# Experiments">Experiments</a></li>
+    <li><a href="# 😉 Citation">Citation</a></li>
+    <li><a href="# 💬 Other">Other</a></li>
   </ol>
 </details>
 
