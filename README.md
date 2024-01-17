@@ -81,7 +81,7 @@ ___
 ```
 
 ___
-## 💬 Other
+## 💬 Other info
 
 **Chongqing Intelligence Perception and Block Chain Technology Key Lab (CQIPBCT Key Lab)**  
 *If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
