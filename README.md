@@ -35,7 +35,7 @@ class="center">
 **If you are interested in *palm or finger vein research*, please contact us!**
 ___
 ## 🛠 Installation
-**News! ! !**  
+**💥News! ! !💥**  
 *you can clone Openmixup training AdAutoMix!*  
 We update some analysis tools code such as: Calibration, FGSM `calibration_fgsm.py` and Occlusion Robustness `occlusion_robustness.py` experiments, also we support a mix augmentation method **SnapMix[[AAAI 2020]](https://arxiv.org/abs/2012.04846)**.  
 Big thanks to **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998)**.  
@@ -62,7 +62,49 @@ git clone https://github.com/JinXins/Adversarial-AutoMixup.git
 ___
 
 ## 📊 Experiments
-**Please check [Experiments.md](Experiments.md) for detail experiment results.**  
+
+### CIFAR-100
+| Name             | alpha | Conference | ResNet18 | ResNeXt50 | Swin-Tiny | ConvNeXt-T |
+|------------------|-------|------------|----------|-----------|-----------|------------|
+| Vanilla                                              | -     |            | 78.04   | 81.09    | 78.41 | 78.70 |
+| [MixUp](https://arxiv.org/abs/1710.09412)            | 1.0   | ICLR2018   | 79.12   | 82.10    | 76.78 | 81.13 |
+| [CutMix](https://arxiv.org/abs/1905.04899)           | 0.2   | ICCV2019   | 78.17   | 78.32    | 80.64 | 82.46 |
+| [SaliencyMix](https://arxiv.org/abs/2006.01791)      | 0.2   | ICLR2021   | 79.12   | 78.77    | 80.40 | 82.82 |
+| [FMix](https://arxiv.org/abs/2002.12047)             | 0.2   | ArXiv      | 79.69   | 79.02    | 80.72 | 81.79 |
+| [ResizeMix](https://arxiv.org/abs/2012.11101)        | 1.0   | CVMJ2023   | 80.01   | 80.35    | 80.16 | 82.53 |
+| [PuzzleMix](https://arxiv.org/abs/2009.06962)        | 1.0   | ICML2020   | 81.13   | 82.85    | 80.33 | 82.29 |
+| [AutoMix](https://arxiv.org/abs/2103.13027)          | 2.0   | ECCV2022   | 82.04   | 83.64    | 82.67 | 83.30 |
+| [AdAutoMix](https://arxiv.org/abs/2312.11954)        | 1.0   | ICLR2024   |**82.32**|**84.22** |**84.33**|**83.54**|
+___
+### Tiny-ImageNet & ImageNet-1K
+| Name             | alpha | Conference | ResNet18 | ResNeXt50 |ImageNet-1K| ResNet18 | ResNet34 | ResNet50 |
+|------------------|-------|------------|----------|-----------|-|----------|----------|----------|
+| Vanilla          | -     | -          | 61.68    | 65.04     | | 70.04    | 73.85    | 76.83    |
+| MixUp            | 1.0   | ICLR2018   | 63.86    | 66.36     | | 69.98    | 73.97    | 77.12    |
+| CutMix           | 0.2   | ICCV2019   | 65.53    | 66.47     | | 68.95    | 73.58    | 77.17    |
+| SaliencyMix      | 0.2   | ICLR2021   | 64.40    | 66.55     | | 69.16    | 73.56    | 77.14    |
+| FMix             | 0.2   | ArXiv      | 63.47    | 65.08     | | 69.96    | 74.08    | 77.19    |
+| ResizeMix        | 1.0   | CVMJ2023   | 63.17    | 65.87     | | 69.50    | 73.88    | 77.42    |
+| PuzzleMix        | 1.0   | ICML2020   | 65.81    | 67.83     | | 70.12    | 74.26    | 77.54    |
+| AutoMix          | 2.0   | ECCV2022   | 67.33    | 70.72     | | 70.50    | 74.52    | 77.91    |
+| AdAutoMix        | 1.0   | ICLR2024   | **69.19**| **72.89** | | **70.86**| **74.82**| **78.04**|
+___
+### Find-Grained
+| Name             | alpha | Confrence  | CUB R18 | CUB R50 | FGVC R18 | FGVC RX50 | Cars R18 | Cars RX50 |
+|------------------|-------|------------|---------|---------|--------------------|---------------------|--------------------|---------------------|
+| Vanilla          | -     |            | 77.68   | 82.38   | 80.23              | 85.1                | 86.32              | 90.15               |
+| MixUp            | 1.0   | ICLR2018   | 78.39   | 82.98   | 79.52              | 85.18               | 86.27              | 90.81               |
+| CutMix           | 0.2   | ICCV2019   | 78.40   | 83.17   | 78.84              | 84.55               | 87.48              | 91.22               |
+| ManifoldMixup    | 2.0   | ICML2019   | 79.76   | 83.76   | 80.68              | 86.6                | 85.88              | 90.20               |
+| SaliencyMix      | 0.2   | ICLR2021   | 77.95   | 82.02   | 80.02              | 84.31               | 86.48              | 90.60               |
+| FMix             | 0.2   | ArXiv      | 77.28   | 83.34   | 79.36              | 86.23               | 87.55              | 90.90               |
+| ResizeMix        | 1.0   | CVMJ2023   | 78.5    | 83.41   | 78.1               | 84.08               | 88.17              | 91.36               |
+| PuzzleMix        | 1.0   | ICML2020   | 78.63   | 83.83   | 80.76              | 86.23               | 87.78              | 91.29               |
+| AutoMix          | 2.0   | ECCV2022   | 79.87   | 83.88   | 81.37              | 86.72               | 88.89              | 91.38               |
+| AdAutoMix        | 1.0   | ICLR2024   |**80.88**|**84.57**| **81.73**          | **87.16**           | **89.19**          | **91.59**           |
+___
+
+**If you want see more results, please check this [Experiments.md](Experiments.md).**  
 ___
 
 ## 😉 Citation
