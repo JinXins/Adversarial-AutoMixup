@@ -102,7 +102,6 @@ ___
 | PuzzleMix        | 1.0   | ICML2020   | 78.63   | 83.83   | 80.76              | 86.23               | 87.78              | 91.29               |
 | AutoMix          | 2.0   | ECCV2022   | 79.87   | 83.88   | 81.37              | 86.72               | 88.89              | 91.38               |
 | AdAutoMix        | 1.0   | ICLR2024   |**80.88**|**84.57**| **81.73**          | **87.16**           | **89.19**          | **91.59**           |
-___
 
 **If you want see more results, please check this [Experiments.md](Experiments.md).**  
 ___
