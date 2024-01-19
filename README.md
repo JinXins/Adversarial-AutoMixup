@@ -37,8 +37,8 @@ ___
 ## 🛠 Installation
 **💥News! ! !💥**  
 *you can clone Openmixup training AdAutoMix!*  
-We update some analysis tools code such as: Calibration, FGSM `calibration_fgsm.py` and Occlusion Robustness `occlusion_robustness.py` experiments, also we support a mix augmentation method **SnapMix[[AAAI 2020]](https://arxiv.org/abs/2012.04846)**.  
-Big thanks to **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998)**.  
+*We update some analysis tools code such as: Calibration, FGSM* `calibration_fgsm.py` *and Occlusion Robustness* `occlusion_robustness.py` *experiments, also we support a mix augmentation method **SnapMix[[AAAI 2020]](https://arxiv.org/abs/2012.04846)***.  
+*Big thanks to **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998)***.  
 
 In fact, you can add our python file in **OpenMixup**.  
 There, you can see how to use it and the environment required. What you need to do is add or replace our files by folder inside OpenMixup, and then add the function names of the files in the `__init__.py` file.   
