@@ -35,7 +35,7 @@ class="center">
 **If you are interested in *palm or finger vein research*, please contact us!**
 ___
 ## 🛠 Installation
-**💥News! ! !💥**  
+***💥News! ! !💥***  
 *you can clone Openmixup training AdAutoMix!*  
 *We update some analysis tools code such as: Calibration, FGSM* `calibration_fgsm.py` *and Occlusion Robustness* `occlusion_robustness.py` *experiments, also we support a mix augmentation method **SnapMix[[AAAI 2020]](https://arxiv.org/abs/2012.04846)***.  
 *Big thanks to **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998)***.  
