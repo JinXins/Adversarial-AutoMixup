@@ -129,7 +129,7 @@ ___
 
 ___
 ## 💬 Other info
-### Chongqing Intelligence Perception and Block Chain Technology Key Lab, Biometric Identification Group  
+### 🏫 Chongqing Intelligence Perception and Block Chain Technology Key Lab, Biometric Identification Group  
 **Head of Laboratory:** *Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)*.  
 ___
 ### 📖 Some Publications  
