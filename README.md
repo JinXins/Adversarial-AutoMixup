@@ -129,7 +129,30 @@ ___
 
 ___
 ## 💬 Other info
-**Chongqing Intelligence Perception and Block Chain Technology Key Lab (CQIPBCT Key Lab)**  
+### Chongqing Intelligence Perception and Block Chain Technology Key Lab, Biometric Identification Group  
+**Head of Laboratory:** *Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)*.  
+___
+### 📖 Some Publications  
+- **Finger Vein & Palm Vein**  
+    - **Finger-vein image recognition combining modified hausdorff distance with minutiae feature matching, 2009, Interdisciplinary Sciences: Computational Life Sciences**  
+    - **Region growth–based feature extraction method for finger-vein recognition, 2011, Optical Engineering**  
+    - **Quality assessment of finger-vein image, 2012, Asia Pacific signal and information processing association**  
+    - **Finger-vein verification based on multi-features fusion, 2013, Sensors**  
+    - **Finger-vein quality assessment by representation learning from binary images, 2015, ICONIP**  
+    - **Deep representation for finger-vein image-quality assessment, 2017, TCSVT**  
+    - **Finger-vein quality assessment by joint representation learning from grayscale and binary images, 2018, ICPRAI**  
+    - **Multi-Scale and Multi-Direction GAN for CNN-based Single Palm-Vein Identification, 2021, TIFS**  
+    - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT**  
+    - **Transformer based Defense GAN Against Palm-Vein Adversarial Attacks, 2023, TIFS**  
+    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM**  
+    - **Adversarial Learning-based Data Augmentation for Palm-vein Identification, 2023, TCSVT**  
+    - **AG-NAS: An Attention GRU-based Neural Architecture Search for Finger-Vein Recognition, 2023, TIFS**  
+    - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv**  
+- **Computer Vision**  
+    - **Adversarial AutoMixup, 2024, ICLR**  
+- **Eye Movement**  
+    - **EmMixformer: Mix Transformer for Eye Movement Recognition, 2024, arXiv**
+___
 *If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
 Of course, we're also trying to research how we can use AI to predict and detect diseases, potentially Alzheimer's, Parkinson's, etc., but of course, this is new research for us, so we're still figuring it out.*
 
