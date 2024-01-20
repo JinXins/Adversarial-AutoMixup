@@ -108,7 +108,7 @@ ___
 ___
 
 ## 😉 Citation
-**If you like this paper of ours, please remember citing it 🥰, and please don`t forget citing OpenMixup if you use this project ! ! !** 🤗:  
+**If you feel that our work has contributed to your research, please cite it, 🥰 and please don`t forget to cite OpenMixup if you use this project ! 🤗**  
 ```markdown
 @article{Qin2023AdversarialA,
   title={Adversarial AutoMixup},
