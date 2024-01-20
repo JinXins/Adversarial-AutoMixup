@@ -133,11 +133,7 @@ ___
 **Head of Laboratory:** *Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)*.  
 ___
 ### 📖 Some Publications  
-- **Finger Vein & Palm Vein**  
-    - **Finger-vein image recognition combining modified hausdorff distance with minutiae feature matching, 2009, Interdisciplinary Sciences: Computational Life Sciences**  
-    - **Region growth–based feature extraction method for finger-vein recognition, 2011, Optical Engineering**  
-    - **Quality assessment of finger-vein image, 2012, Asia Pacific signal and information processing association**  
-    - **Finger-vein verification based on multi-features fusion, 2013, Sensors**  
+- **Finger Vein & Palm Vein**   
     - **Finger-vein quality assessment by representation learning from binary images, 2015, ICONIP**  
     - **Deep representation for finger-vein image-quality assessment, 2017, TCSVT**  
     - **Finger-vein quality assessment by joint representation learning from grayscale and binary images, 2018, ICPRAI**  
