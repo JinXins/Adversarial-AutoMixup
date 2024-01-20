@@ -154,5 +154,4 @@ ___
 ### 📝 Interest
 *If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
 Of course, we're also trying to research how we can use AI to predict and detect diseases, potentially Alzheimer's, Parkinson's, etc., but of course, this is new research for us, so we're still figuring it out.*
-
-
+Email: 158398730@qq.com
