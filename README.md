@@ -9,6 +9,8 @@
 <sup>2</sup>[Telecom SudParis, Institut Polytechnique de Paris](https://www.ip-paris.fr/telecom-sudparis)
 
 <sup>3</sup>[Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/)
+
+<sup>*</sup> Equal Contribution <sup>†</sup> Corresponding Author
 </div>
 
 <p align="center">
