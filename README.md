@@ -112,12 +112,11 @@ ___
 ## 😉 Citation
 **If you feel that our work has contributed to your research, please cite it, 🥰 and please don`t forget to cite OpenMixup if you use this project ! 🤗**  
 ```markdown
-@article{Qin2023AdversarialA,
-  title={Adversarial AutoMixup},
-  author={Huafeng Qin and Xin Jin and Yun Jiang and Mounim A. El-Yacoubi and Xinbo Gao},
-  journal = {ArXiv},
-  year={2023},
-  volume = {abs/2312.11954}
+@inproceedings{iclr2024adautomix,
+      title={Adversarial AutoMixup},
+      author={Huafeng Qin and Xin Jin and Yun Jiang and Mounim A. El-Yacoubi and Xinbo Gao},
+      booktitle={International Conference on Learning Representations},
+      year={2024},
 }
 
 @article{li2022openmixup,
