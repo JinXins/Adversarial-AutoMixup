@@ -137,10 +137,10 @@ ___
 ___
 ### 📖 Some Publications  
 - **Finger Vein & Palm Vein**   
-    - **Finger-vein quality assessment by representation learning from binary images, 2015, ICONIP**  
-    - **Deep representation for finger-vein image-quality assessment, 2017, TCSVT**
-    - **Deep representation-based feature extraction and recovering for finger-vein verification, 2017, TIFS**
-    - **Finger-vein quality assessment by joint representation learning from grayscale and binary images, 2018, ICPRAI**  
+    - **Finger-Vein Quality Assessment by Representation Learning from Binary Images, 2015, ICONIP**  
+    - **Deep Representation for Finger-Vein Image-Quality Assessment, 2017, TCSVT**
+    - **Deep Representation-based Feature Extraction and Recovering for Finger-Vein Verification, 2017, TIFS**
+    - **Finger-Vein Quality Assessment by Joint Representation Learning from Grayscale and Binary Images, 2018, ICPRAI**  
     - **Multi-Scale and Multi-Direction GAN for CNN-based Single Palm-Vein Identification, 2021, TIFS**  
     - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT**  
     - **Transformer based Defense GAN Against Palm-Vein Adversarial Attacks, 2023, TIFS**  
