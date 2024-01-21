@@ -110,7 +110,7 @@ ___
 ___
 
 ## 😉 Citation
-**If you feel that our work has contributed to your research, please cite it, 🥰 and please don`t forget to cite OpenMixup if you use this project ! 🤗**  
+**If you feel that our work has contributed to your research, please cite it, 🥰 and please don`t forget to cite OpenMixup if you use this project ! 🤗 Thanks.**  
 ```markdown
 @inproceedings{iclr2024adautomix,
       title={Adversarial AutoMixup},
