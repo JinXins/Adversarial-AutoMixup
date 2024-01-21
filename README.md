@@ -133,7 +133,7 @@ ___
 ___
 ## 💬 Other info
 ### 🏫 Chongqing Intelligence Perception and Block Chain Technology Key Lab, Biometric Identification Group  
-**Head of Laboratory:** *Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)*.  
+**Head of Laboratory:** *Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN)*. ***Email: qinhuafengfeng@163.com***  
 ___
 ### 📖 Some Publications  
 - **Finger Vein & Palm Vein**   
