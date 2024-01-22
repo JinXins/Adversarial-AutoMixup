@@ -149,7 +149,7 @@ ___
     - **AG-NAS: An Attention GRU-based Neural Architecture Search for Finger-Vein Recognition, 2023, TIFS**  
     - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv**  
 - **Computer Vision**  
-    - **Adversarial AutoMixup, 2024, ICLR**  
+    - **Adversarial AutoMixup, 2024, ICLR** *(spotlight 5%)*  
 - **Eye Movement**  
     - **EmMixformer: Mix Transformer for Eye Movement Recognition, 2024, arXiv**
 ___
