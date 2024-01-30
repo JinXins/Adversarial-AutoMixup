@@ -22,7 +22,7 @@ model = dict(
         drop_path_rate=0.2,
         out_indices=(2, 3,),  # x-1: stage-x
     ),
-    mix_block=dict(  # AutoMix
+    mix_block=dict(
         type='AdaptiveMask',
         in_channel=768,
         reduction=2,
