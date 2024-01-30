@@ -14,7 +14,6 @@ model = dict(
     lam_margin=0.03,  # degenerate to mixup when
     mixed_radio=0.5,
     beta_radio=0.3,
-    switch_off=0.8,
     debug=True,
     backbone=dict(
         type='VisionTransformer',
