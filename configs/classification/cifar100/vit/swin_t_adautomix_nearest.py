@@ -28,6 +28,7 @@ model = dict(
         reduction=2,
         lam_concat=True,
         use_scale=True, unsampling_mode='nearest',
+        scale_factor=32,
         frozen=False),
     head_one=dict(
         type='ClsMixupHead',  # mixup CE + label smooth
