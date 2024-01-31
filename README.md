@@ -40,8 +40,8 @@ class="center">
 ___
 ## 🛠 Installation
 ***💥News! ! !💥***  
-**2024-01-18:** *you can clone Openmixup training AdAutoMix!*  
-**2023-12-19:** *We update some analysis tools code such as: Calibration, FGSM* `calibration_fgsm.py` *and Occlusion Robustness* `occlusion_robustness.py` *experiments, also we support a mix augmentation method **"SnapMix"[[AAAI 2021]](https://arxiv.org/abs/2012.04846)***.  
+***2024-01-18:*** *you can clone Openmixup training AdAutoMix!*  
+***2023-12-19:*** *We update some analysis tools code such as: Calibration, FGSM* `calibration_fgsm.py` *and Occlusion Robustness* `occlusion_robustness.py` *experiments, also we support a mix augmentation method **"SnapMix"[[AAAI 2021]](https://arxiv.org/abs/2012.04846)***.  
 *Big thanks to **Siyuan Li[(@Lupin1998)](https://github.com/Lupin1998)***.  
 
 ***🔧How to install?🔧***  
