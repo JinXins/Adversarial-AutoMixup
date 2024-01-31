@@ -1,7 +1,5 @@
-# dataset settings
-data_source_cfg = dict(type='CIFAR100', root='data/cifar100/')
 # dataset CORRUPTIONS
-data_test_cfg = dict(type='CIFAR_C', root='data/CIFAR100C/')
+data_source_cfg = dict(type='CIFAR_C', root='data/CIFAR100C/')
 
 dataset_type = 'ClassificationDataset'
 img_norm_cfg = dict(mean=[0.4914, 0.4822, 0.4465], std=[0.2023, 0.1994, 0.201])
@@ -27,7 +25,7 @@ data = dict(
     ),
     val=dict(
         type=dataset_type,
-        data_source=dict(split='test', **data_test_cfg),
+        data_source=dict(split='test', **data_source_cfg),
         pipeline=test_pipeline,
         prefetch=False),
 )
