@@ -136,7 +136,7 @@ ___
 **Head of Laboratory:** ***Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). Email: qinhuafengfeng@163.com***  
 ___
 ### 📖 Some Publications  
-- **Finger Vein & Palm Vein**   
+- **Finger Vein & Palm Vein Recognition**   
     - **Finger-Vein Quality Assessment by Representation Learning from Binary Images, 2015, ICONIP** *[PDF](https://link.springer.com/chapter/10.1007/978-3-319-26532-2_46)*  
     - **Deep Representation for Finger-Vein Image-Quality Assessment, 2017, TCSVT** *[PDF](https://ieeexplore.ieee.org/document/7882698)*
     - **Deep Representation-based Feature Extraction and Recovering for Finger-Vein Verification, 2017, TIFS** *[PDF](https://ieeexplore.ieee.org/document/7890487)*
@@ -152,7 +152,7 @@ ___
     - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.08079)*  
 - **Computer Vision**  
     - **Adversarial AutoMixup, 2024, ICLR** *(spotlight 5%)* *[PDF](https://arxiv.org/abs/2312.11954)*  
-- **Eye Movement**  
+- **Eye Movement Recognition**  
     - **EmMixformer: Mix Transformer for Eye Movement Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.04956)*
 ___
 ### 📝 Interest
