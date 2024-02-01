@@ -142,10 +142,9 @@ ___
     - **Deep Representation-based Feature Extraction and Recovering for Finger-Vein Verification, 2017, TIFS** *[PDF](https://ieeexplore.ieee.org/document/7890487)*
     - **Finger-Vein Quality Assessment by Joint Representation Learning from Grayscale and Binary Images, 2018, ICPRAI** *[PDF](https://www.researchgate.net/publication/331208700_Finger-Vein_Quality_Assessment_Based_on_Deep_Features_From_Grayscale_and_Binary_Images)*  
     - **Multi-Scale and Multi-Direction GAN for CNN-based Single Palm-Vein Identification, 2021, TIFS** *[PDF](https://ieeexplore.ieee.org/abstract/document/9354642)*  
-    - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT** *[PDF](https://ieeexplore.ieee.org/abstract/document/9973408)*
-    - **Adaptive Deep Feature Fusion for Continuous Authentication with Data Augmentation, 2022, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/9808175)*  
+    - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT** *[PDF](https://ieeexplore.ieee.org/abstract/document/9973408)*  
     - **Transformer based Defense GAN Against Palm-Vein Adversarial Attacks, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/document/10041181)*  
-    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM** *[PDF](https://ieeexplore.ieee.org/document/10081428)* 
+    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM** *[PDF](https://ieeexplore.ieee.org/document/10081428)*  
     - **Adversarial Learning-based Data Augmentation for Palm-vein Identification, 2023, TCSVT** *[PDF](https://ieeexplore.ieee.org/document/10323353)*  
     - **AG-NAS: An Attention GRU-based Neural Architecture Search for Finger-Vein Recognition, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/abstract/document/10348535)*  
     - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.08079)*  
