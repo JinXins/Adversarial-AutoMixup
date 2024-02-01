@@ -145,12 +145,13 @@ ___
     - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT** *[PDF](https://ieeexplore.ieee.org/abstract/document/9973408)*
     - **Adaptive Deep Feature Fusion for Continuous Authentication with Data Augmentation, 2022, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/9808175)*  
     - **Transformer based Defense GAN Against Palm-Vein Adversarial Attacks, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/document/10041181)*  
-    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM** *[PDF](https://ieeexplore.ieee.org/document/10081428)*
-    - **Memory-Augmented Autoencoder based Continuous Authentication on Smartphones with Conditional Transformer GANs, 2023, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/10168251)*  
+    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM** *[PDF](https://ieeexplore.ieee.org/document/10081428)* 
     - **Adversarial Learning-based Data Augmentation for Palm-vein Identification, 2023, TCSVT** *[PDF](https://ieeexplore.ieee.org/document/10323353)*  
     - **AG-NAS: An Attention GRU-based Neural Architecture Search for Finger-Vein Recognition, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/abstract/document/10348535)*  
     - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.08079)*  
-- **Computer Vision**  
+- **Computer Vision**
+    - **Adaptive Deep Feature Fusion for Continuous Authentication with Data Augmentation, 2022, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/9808175)*  
+    - **Memory-Augmented Autoencoder based Continuous Authentication on Smartphones with Conditional Transformer GANs, 2023, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/10168251)*  
     - **Adversarial AutoMixup, 2024, ICLR** *(spotlight 5%)* *[PDF](https://arxiv.org/abs/2312.11954)*  
 - **Eye Movement Recognition**  
     - **EmMixformer: Mix Transformer for Eye Movement Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.04956)*
