@@ -15,7 +15,7 @@
 
 <p align="center">
 <a href="https://arxiv.org/abs/2312.11954" alt="arXiv">
-    <img src="https://img.shields.io/badge/arXiv-2211.03295-b31b1b.svg?style=flat" /></a>
+    <img src="https://img.shields.io/badge/arXiv-2312.11954-b31b1b.svg?style=flat" /></a>
 <a href="https://github.com/JinXins/Adversarial-AutoMixup/blob/main/LICENSE" alt="license">
     <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" /></a>
 <a herf="" alt="Github stars">
