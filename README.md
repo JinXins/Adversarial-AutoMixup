@@ -131,29 +131,7 @@ ___
 ```
 
 ___
-## 💬 Other info
-### 🏫 Chongqing Intelligence Perception and Block Chain Technology Key Lab, Biometric Identification Group  
-**Head of Laboratory:** ***Prof. [Huafeng Qin](https://scholar.google.com/citations?user=5jvXcJ0AAAAJ&hl=zh-CN). Email: qinhuafengfeng@163.com***  
-___
-### 📖 Some Publications  
-- **Finger Vein & Palm Vein Recognition**   
-    - **Finger-Vein Quality Assessment by Representation Learning from Binary Images, 2015, ICONIP** *[PDF](https://link.springer.com/chapter/10.1007/978-3-319-26532-2_46)*  
-    - **Deep Representation for Finger-Vein Image-Quality Assessment, 2017, TCSVT** *[PDF](https://ieeexplore.ieee.org/document/7882698)*
-    - **Deep Representation-based Feature Extraction and Recovering for Finger-Vein Verification, 2017, TIFS** *[PDF](https://ieeexplore.ieee.org/document/7890487)*
-    - **Finger-Vein Quality Assessment by Joint Representation Learning from Grayscale and Binary Images, 2018, ICPRAI** *[PDF](https://www.researchgate.net/publication/331208700_Finger-Vein_Quality_Assessment_Based_on_Deep_Features_From_Grayscale_and_Binary_Images)*  
-    - **Multi-Scale and Multi-Direction GAN for CNN-based Single Palm-Vein Identification, 2021, TIFS** *[PDF](https://ieeexplore.ieee.org/abstract/document/9354642)*  
-    - **Local Attention Transformer-based Full-View Finger-Vein Identification, 2022, TCSVT** *[PDF](https://ieeexplore.ieee.org/abstract/document/9973408)*  
-    - **Transformer based Defense GAN Against Palm-Vein Adversarial Attacks, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/document/10041181)*  
-    - **Label Enhancement-Based Multiscale Transformer for Palm-Vein Recognition, 2023, TIM** *[PDF](https://ieeexplore.ieee.org/document/10081428)*  
-    - **Adversarial Learning-based Data Augmentation for Palm-vein Identification, 2023, TCSVT** *[PDF](https://ieeexplore.ieee.org/document/10323353)*  
-    - **AG-NAS: An Attention GRU-based Neural Architecture Search for Finger-Vein Recognition, 2023, TIFS** *[PDF](https://ieeexplore.ieee.org/abstract/document/10348535)*  
-    - **Adversarial Masking Contrastive Learning for Vein Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.08079)*  
-- **Computer Vision**
-    - **Adaptive Deep Feature Fusion for Continuous Authentication with Data Augmentation, 2022, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/9808175)*  
-    - **Memory-Augmented Autoencoder based Continuous Authentication on Smartphones with Conditional Transformer GANs, 2023, TMC** *[PDF](https://ieeexplore.ieee.org/abstract/document/10168251)*  
-    - **Adversarial AutoMixup, 2024, ICLR** *(spotlight 5%)* *[PDF](https://arxiv.org/abs/2312.11954)*  
-- **Eye Movement Recognition**  
-    - **EmMixformer: Mix Transformer for Eye Movement Recognition, 2024, arXiv** *[PDF](https://arxiv.org/abs/2401.04956)*
+
 ___
 ### 📝 Interest
 &emsp;&emsp;*If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
