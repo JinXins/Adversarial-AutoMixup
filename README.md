@@ -129,9 +129,6 @@ ___
   volume = {abs/2209.04851}
 }
 ```
-
-___
-
 ___
 ### 📝 Interest
 &emsp;&emsp;*If you are interested in vein research (palm veins, finger veins, etc.), why not contact us and we will be happy to discuss the research or questions with you.  
